@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'BitBap';
+  src: local('BitBap'), url(./BitPap.ttf) format('truetype');
+}
+
+#root {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+body {
+  font-family: 'BitBap';
+  margin: 0;
+  color: #D13030;
+  background-color: #0B0B1B;
+  overflow: overlay;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(117, 26, 26, 0.5);
+}
